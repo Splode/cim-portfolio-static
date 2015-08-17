@@ -1,0 +1,39 @@
+=== Jumbotron ===
+My name is Christopher Murphy. I live to design and make things.
+
+=== Intro ===
+A passion for creative problem solving and lifelong education.
+
+Curiousity and a love of learning have led me to both formal and informal education in a variety of design disciplines, ranging from fine woodworking to web design to architecture. Through my experience I have gained an appreciation for the value of critical thinking and its application to finding creative solutions to complex problems. 
+
+I place tremendous value on my curiousity and critical thinking skills. I have experience and both formal and informal education in a wide array of design disciplines. Through the years I have gained an appreciation for the fundamentals of design and the importance of a thorough design process.
+ 
+Currently, I work as an energy modeler with Vibrantcy, an energy consulting firm based in Albuquerque, New Mexico. As an energy modeler, I perform advanced energy analysis for new and existing buildings and serve as a consultant for sustainble building design.
+
+=== Design Process ===
+Design Process
+	Whether I'm working on a piece of furniture, web site, or architectural project I follow an iterative design process with distinct components. At each phase, the design is tested against the project's goals, the course is adjusted, and the process is repeated until the design is finalized.
+	Discovery
+		I start a project with discovery: I gather project data, establish project goals, and determine performance metrics.
+	Concept / Strategy
+		During the concept / strategy phase I create a strategy for addressing the project's goals with the Big Idea. Typical products of this phase are mockups and sketches.
+	Schematic Design
+	Development
+		Development involves building; the muscles and guts of the project are fleshed out upon the conceptual framework.
+	Refinement
+		Refinement involves polishing all parts of the project, ensuring a complete and thoughtful user experience.
+
+=== Design Philosophy ===
+The richest and most elegant design solutions are often the simplest and most straight-forward.
+
+I'm passionate about crafting rich experiences, whether they be the experience of using a web application, a piece of furniture, or a work of art. I maintain blank through a commitment to lifelong education.
+
+Through the years I have gained an appreciation for the fundamentals of design and the importance of a thorough design process.
+
+=== Contact ===
+Have questions, comments, or would like to say hi? Get in touch.
+
+=== Snippets ===
+Simple is underrated.
+	An elegant design solution
+diverse skillset

@@ -1,0 +1,448 @@
+/* ----------------------------------------------
+Website Name: Christopher Murphy - Design Portfolio
+Website URL: www.christopherianmurphy.com
+Author: Christopher Ian Murphy
+Date: 2015-08-11
+---------------------------------------------- */
+
+/* Table of Contents
+----------------------------------------------
+- CSS reset
+- Base styles
+- Header & Nav
+- Typography
+- Links
+- Layout
+- Media (images, etc.)
+- Footer
+- Grid
+- Media queries
+*/
+
+/* CSS reset 
+---------------------------------------------- */
+html, body, nav, header, div, section, article, h1, h2, h3, p, a, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Base styles
+---------------------------------------------- */
+body {
+	text-rendering: optimizeLegibility;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: black;
+	margin: 0 auto;
+}
+
+main {
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+/* Header & Nav
+---------------------------------------------- */
+
+nav {
+	background: #fff;
+	border-bottom: 8px solid black;
+	height: 75px;
+	position: fixed;
+	width:100%;
+	z-index: 1;
+}
+
+nav ul {
+	float: right;
+	margin-top: 32px;
+	margin-right: 2.5%;
+}
+
+nav li {
+	display: inline;
+	text-transform: uppercase;
+	font-size: 0.8888em;
+	margin-left: 2em;
+}
+
+nav li a {transition: opacity .25s;}
+
+nav li a:hover {opacity: 0.33;}
+
+/* Typography
+---------------------------------------------- */
+
+h1,
+h2, 
+h3 {font-family: 'Montserrat', sans-serif;}
+
+h1 {
+	font-size: 3.75em;
+	letter-spacing: -0.03em;
+}
+
+h1 span {color: rgb(87,87,87);}
+
+h2 {
+	font-size: 2.75em;
+	padding: 2em 0 .75em 0;
+}
+
+h3 {
+	font-size: 1.77em;
+	padding-top: 50px;
+	padding-bottom: .7em;
+	width: 100%;
+}
+
+h4 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+	margin: 0;
+	padding: 1em 0 .5em 0;
+	text-transform: uppercase;
+}
+
+p {
+	padding-bottom: 2em;
+	line-height: 2em;
+}
+
+/* p:first-child {
+	padding-top: 0;
+} */
+
+#feature-caption {
+	padding-bottom: 35px;
+	text-align: center;
+}
+
+.project-title {
+	padding-top: 15%;
+	text-align: center;
+}
+
+.strong {font-weight: bold;}
+
+.subtitle {
+	font-size: 1.5em;
+}
+
+/* Links
+---------------------------------------------- */
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.link {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+	line-height: 0;
+}
+
+.link a {transition: opacity .25s;}
+
+.link a:hover {opacity: 0.33;}
+
+/* Layout
+---------------------------------------------- */
+
+#jumbotron {padding: 25% 0 20% 0;}
+
+.box {
+	height: 100%;
+	overflow: hidden;
+	width: 100%;
+}
+
+.box-title {
+	background-color: gray;
+	height: 100%;
+	left: 0;	
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	transition: all .25s ease-in-out;
+	width: 100%;
+}
+
+.box-title h2 {
+	color: #fff;
+	font-size: 2vw;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 25% 10% 0 10%;
+}
+
+.box-title:hover {
+	background-color: rgba(0,0,0,.5);
+	opacity: 1;
+}
+
+.border-bottom {border-bottom: 8px solid #000;}
+.border-top {border-top: 8px solid #000;}
+
+.container-center {
+	margin: 0 auto;
+	max-width: 1080px;
+	padding: 0 2%;
+}
+
+.greyBack {
+	background: rgba(0,0,0,.05);
+	/* color: #fff; */
+	min-width: 100%;
+	padding: 35px 0 75px 0;
+}
+
+/* Media
+---------------------------------------------- */
+
+img {
+	padding-top: 50px;
+	height: auto;
+	width: 100%;
+}
+
+#feature {
+	margin: 0 auto 50px auto;
+	/*padding: 0 2%;*/
+}
+
+#feature .col {
+	display: block;
+	float: left;
+	margin: 0;
+}
+
+#feature .span_6_of_12 {
+	position: relative;
+  	width: 50%;
+}
+
+#feature-img-01 {
+	background: url(00_assets/10_cherryCoffee/cherryCof_06_thumb.jpg) no-repeat center;
+	background-size: cover;
+	width: auto;
+	height: 35vw;
+}
+
+#feature-img-02 {
+	background: url(00_assets/11_zLamp/zLamp_01_thumb.jpg) no-repeat center;
+	background-size: cover;
+	width: auto;
+	height: 35vw;
+}
+
+#feature-img-03 {
+	background: url(00_assets/12_bostonLib/bostonLib_01_thumb.jpg) no-repeat center;
+	background-size: cover;
+	width: auto;
+	height: 35vw;
+}
+
+#feature-img-04 {
+	background: url(00_assets/14_casaEliz/casaEliz_01.jpg) no-repeat center;
+	background-size: cover;
+	width: auto;
+	height: 35vw;
+}
+
+#feature-img-05 {
+	background: url(00_assets/13_zARC/zARC_01.jpg) no-repeat center;
+	background-size: cover;
+	width: auto;
+	height: 35vw;
+}
+
+#feature-img-06 {
+	background: url(00_assets/16_bridgeRio/bridgeRio_05.jpg) no-repeat center;
+	background-size: cover;
+	width: auto;
+	height: 35vw;
+}
+
+#feature-img-07 {
+	background: url(00_assets/04_grass/grass_02.jpg) no-repeat center;
+	background-size: cover;
+	width: auto;
+	height: 35vw;
+}
+
+#feature-img-08 {
+	background: url(00_assets/03_convergences/convNewYork.jpg) no-repeat center;
+	background-size: cover;
+	width: auto;
+	height: 35vw;
+}
+
+.logo {
+	display: inline-block;
+	margin-top: 8px;
+	width: 60px;
+	height: 60px;
+	background: url(00_assets/CIM_logo_01.png) no-repeat;
+	background-size: 100%;
+	transition: background .25s ease-in-out;
+}
+
+.logo:hover {
+	background: url(00_assets/CIM_logo_circ.png) no-repeat;
+	background-size: 100%;
+}
+
+/* Grid
+---------------------------------------------- */
+
+.clear {clear: both;}
+
+.col {
+	display: block;
+	float: left;
+	margin: 1% 0 1% 2%;
+}
+
+.col:first-child {margin-left: 0;}
+
+.span_12_of_12 {
+	position: relative;
+	width: 100%;
+}
+
+.span_11_of_12 {
+	position: relative;
+  	width: 91.5%;
+}
+
+.span_10_of_12 {
+	position: relative;
+  	width: 83%;
+}
+
+.span_9_of_12 {
+	position: relative;
+  	width: 74.5%;
+}
+
+.span_8_of_12 {
+	position: relative;
+  	width: 66%;
+}
+
+.span_7_of_12 {
+	position: relative;
+  	width: 57.5%;
+}
+
+.span_6_of_12 {
+	position: relative;
+  	width: 49%;
+}
+
+.span_5_of_12 {
+	position: relative;
+  	width: 40.5%;
+}
+
+.span_4_of_12 {
+	position: relative;
+  	width: 32%;
+}
+
+.span_3_of_12 {
+	position: relative;
+  	width: 23.5%;
+}
+
+.span_2_of_12 {
+	position: relative;
+  	width: 15%;
+}
+
+.span_1_of_12 {
+	position: relative;
+  	width: 6.5%;
+}
+
+.group:before,
+.group:after { 
+	content:""; 
+	display:table; 
+}
+
+.group:after { 
+	clear:both;
+}
+
+.group { 
+	zoom:1; /* For IE 6/7 */ 
+}
+
+/* Footer
+---------------------------------------------- */
+
+footer {
+	background: rgba(0,0,0,.05);
+	/* border-top: 8px solid #000; */
+	clear: both;
+	height: 150px;
+	margin-top: 10vw;
+	min-width: 100%;
+	padding-top: 2em;
+}
+
+footer img {
+	height: auto;
+	opacity: 1;
+	padding: 1em 1em 0 0;
+	transition: opacity .25s;
+	width: 1.5em;
+}
+
+footer img:hover {
+	opacity: .5;
+}
+
+footer p {
+	font-size: .75em;
+	padding: 0;
+}
+
+/* Media queries
+---------------------------------------------- */
+@media only screen and (max-width: 480px) {
+	.col {margin: 1% 0 1% 0%;}
+	
+	#feature .span_6_of_12 {
+		position: relative;
+		width: 100%;
+	}
+	
+	#feature-img-01, #feature-img-02, #feature-img-03, #feature-img-04, #feature-img-05, #feature-img-06, #feature-img-07, #feature-img-08 {height: 70vw;}
+    
+    .span_1_of_12, .span_2_of_12, .span_3_of_12, .span_4_of_12, .span_5_of_12, .span_6_of_12, .span_7_of_12, .span_8_of_12, .span_9_of_12, .span_10_of_12, .span_11_of_12, .span_12_of_12 {
+	width: 100%; 
+	}
+	
+	nav li {
+		font-size: .75em;
+		margin-left: .45em;
+	}
+	
+	nav li:first-child {
+		margin-left: 0;
+	}
+	
+	h1 {font-size: 2.25em;}
+	
+	h3 {padding-top: 30px;}
+	
+	#jumbotron{padding: 35% 0 15% 0;}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px){
+   
+}

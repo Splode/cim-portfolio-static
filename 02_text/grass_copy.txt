@@ -1,0 +1,5 @@
+An exercise in complex creation using minimalist logic and parametric relationships.
+
+This project began as an exercise in recreating the piece titled Loss by minimalist artist Bridget Riley. Using the Rhino plugin Grasshopper, I established a series of operations that would lead to a reconstruction of the piece. An example step might be: 1. Create a 24x24 grid of black-filled, evenly sized circles. Once the piece had been recreated, the logical steps that led to it served as the operational basis for a new work. This new work attempts to carry on the spirit of the original piece by maintaining its logical basis, while expanding its limits by using the computer as an instrument to carry out a vast number of operations.
+
+By establishing a series of parametric relationships, a core set of operations can serve as a framework which can be quickly altered and repeated, allowing for great complexity of structure through a minimum of logic. It is both wonderfully elegant and busily chaotic.

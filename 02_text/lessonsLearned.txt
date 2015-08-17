@@ -1,0 +1,7 @@
+2015-08-08
+	If an <a> is the only thing nested inside a <div> the link cursor will not display. The <a> must surround the <div>.
+	It is possible to cycle through images or text using CSS transitions and delays.
+2015-08-11
+	It is possible, perhaps even preferable, to make responsive pages using fixed layouts. This may prevent the resizing of image proportions. Changes in layout can be made at various break points (hard break points vs. soft break points). Typicall this is referred to adaptive vs. responsive. Adaptive appears to require both separate CSS and HTML.
+	If using rows in a grid, the columns will continue adding margins until a new container (div, section) is added. This is necessary for rows, thus it is necessary to group columns together.
+	
