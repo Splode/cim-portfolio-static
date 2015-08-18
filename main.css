@@ -21,7 +21,7 @@ Date: 2015-08-11
 
 /* CSS reset 
 ---------------------------------------------- */
-html, body, nav, header, div, section, article, h1, h2, h3, p, a, ul, li {
+html, body, nav, header, footer, div, section, article, h1, h2, h3, p, a, ul, li {
     margin: 0;
     padding: 0;
 }
@@ -192,10 +192,11 @@ a {
 }
 
 .greyBack {
-	background: rgba(0,0,0,.05);
-	/* color: #fff; */
+	background: rgba(0,0,0,.88);
+	color: #fff;
+	margin-top: 75px;
 	min-width: 100%;
-	padding: 35px 0 75px 0;
+	padding: 4em 0;
 }
 
 /* Media
@@ -385,13 +386,14 @@ img {
 ---------------------------------------------- */
 
 footer {
-	/* background: rgba(0,0,0,.05); */
-	border-top: 8px solid #000;
+	background: rgba(0,0,0,.88);
+	/* border-top: 8px solid #000; */
+	color: #fff;
 	clear: both;
-	height: 150px;
-	margin: 12em auto 0 auto;
+	/* height: 150px; */
+	margin: 0 auto;
 	min-width: 100%;
-	padding-top: 2em;
+	padding: 2em 0 4em 0;
 	text-align: center;
 }
 
