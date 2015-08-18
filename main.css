@@ -385,24 +385,25 @@ img {
 ---------------------------------------------- */
 
 footer {
-	background: rgba(0,0,0,.05);
-	/* border-top: 8px solid #000; */
+	/* background: rgba(0,0,0,.05); */
+	border-top: 8px solid #000;
 	clear: both;
 	height: 150px;
-	margin-top: 10vw;
+	margin: 12em auto 0 auto;
 	min-width: 100%;
 	padding-top: 2em;
+	text-align: center;
 }
 
 footer img {
 	height: auto;
 	opacity: 1;
-	padding: 1em 1em 0 0;
+	padding: 1em .5em .25em .5em;
 	transition: opacity .25s;
 	width: 1.5em;
 }
 
-footer img:hover {
+footer a:hover {
 	opacity: .5;
 }
 

@@ -13,8 +13,11 @@ Currently, I work as an energy modeler with Vibrantcy, an energy consulting firm
 === Design Process ===
 Design Process
 	Whether I'm working on a piece of furniture, web site, or architectural project I follow an iterative design process with distinct components. At each phase, the design is tested against the project's goals, the course is adjusted, and the process is repeated until the design is finalized.
+	
+	From its inception, whether it takes the form of a web site or a piece of furniture, a project goes through an iterative design process with distinct components. At each phase, the design is tested against the project's goals, the course is adjusted, and the process is repeated until a thoughtful, high-performing solution is crafted.
+	
 	Discovery
-		I start a project with discovery: I gather project data, establish project goals, and determine performance metrics.
+		Curiousity is key and discovery is its fruit. I start a project with discovery: I gather project data, establish project goals, and determine performance metrics.
 	Concept / Strategy
 		During the concept / strategy phase I create a strategy for addressing the project's goals with the Big Idea. Typical products of this phase are mockups and sketches.
 	Schematic Design
