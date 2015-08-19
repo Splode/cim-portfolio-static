@@ -91,7 +91,7 @@ h2 {
 
 h3 {
 	font-size: 1.77em;
-	padding-top: 50px;
+	/* padding-top: 50px; */
 	padding-bottom: .7em;
 	width: 100%;
 }
@@ -109,17 +109,14 @@ p {
 	line-height: 2em;
 }
 
-/* p:first-child {
-	padding-top: 0;
-} */
-
 #feature-caption {
 	padding-bottom: 35px;
 	text-align: center;
 }
 
 .project-title {
-	padding-top: 15%;
+	font-size: 2.75em;
+	padding: 15% 0 2em 0;
 	text-align: center;
 }
 
@@ -150,7 +147,7 @@ a {
 /* Layout
 ---------------------------------------------- */
 
-#jumbotron {padding: 25% 0 20% 0;}
+#jumbotron {padding: 25% 0 18% 0;}
 
 .box {
 	height: 100%;
@@ -183,7 +180,11 @@ a {
 }
 
 .border-bottom {border-bottom: 8px solid #000;}
-.border-top {border-top: 8px solid #000;}
+
+.border-top {
+	border-top: 8px solid #000; 
+	padding-top: 2em;
+}
 
 .container-center {
 	margin: 0 auto;
@@ -197,13 +198,14 @@ a {
 	margin-top: 75px;
 	min-width: 100%;
 	padding: 4em 0;
+	text-align: center;
 }
 
 /* Media
 ---------------------------------------------- */
 
 img {
-	padding-top: 50px;
+	padding-bottom: 2%;
 	height: auto;
 	width: 100%;
 }
@@ -225,7 +227,7 @@ img {
 }
 
 #feature-img-01 {
-	background: url(00_assets/10_cherryCoffee/cherryCof_06_thumb.jpg) no-repeat center;
+	background: url(00_assets/10_cherryCoffee/cherryCof_01_thumb.jpg) no-repeat center;
 	background-size: cover;
 	width: auto;
 	height: 35vw;
@@ -246,7 +248,7 @@ img {
 }
 
 #feature-img-04 {
-	background: url(00_assets/14_casaEliz/casaEliz_01.jpg) no-repeat center;
+	background: url(00_assets/14_casaEliz/casaEliz_01.jpg) no-repeat top;
 	background-size: cover;
 	width: auto;
 	height: 35vw;
