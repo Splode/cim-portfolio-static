@@ -116,6 +116,7 @@ p {
 
 .caption {
 	font-style: italic;
+	/* padding-bottom: 0; */
 }
 
 .project-title {
