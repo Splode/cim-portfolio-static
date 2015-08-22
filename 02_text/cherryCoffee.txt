@@ -1,1 +1,5 @@
-Hand-crafted from cherry. The goal for this project was to create a coffee table that emphasized wood joinery and embodied a contemporary, streamlined formal language.
+Goal was to create a piece of furniture that had a sense of movement and dynamism, which was achieved with an asymmetrical design 
+The goal for this project was to create a coffee table that emphasized wood joinery and embodied a contemporary, streamlined formal language.
+chamfered edges on the top, side, and bottom panels
+mitered joint with perpendicular splines
+lower shelf is double-blind mortised into the side panel and two floating tenons connecting the lower shelf into the crosspiece.

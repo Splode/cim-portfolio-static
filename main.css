@@ -217,7 +217,6 @@ img {
 
 #feature {
 	margin: 0 auto 50px auto;
-	/*padding: 0 2%;*/
 }
 
 #feature .col {
@@ -394,10 +393,8 @@ img {
 
 footer {
 	background: rgba(0,0,0,.88);
-	/* border-top: 8px solid #000; */
 	color: #fff;
 	clear: both;
-	/* height: 150px; */
 	margin: 0 auto;
 	min-width: 100%;
 	padding: 2em 0 4em 0;
@@ -448,11 +445,62 @@ footer p {
 	
 	h1 {font-size: 2.25em;}
 	
-	h3 {padding-top: 30px;}
+	h2 {padding: 1em 0 .75em 0;}
+	
+	h3 {
+		font-size: 1.5em;
+		padding-top: 30px;
+		}
 	
 	#jumbotron{padding: 35% 0 15% 0;}
+	
+	.box-title:hover h2{
+		display: none;
+	}
+	
+	.project-title {
+		font-size: 2em;
+		padding: 3.5em 0 1em 0;
+		}
+	
+	.subtitle {
+		font-size: 1.25em;
+		line-height: 1.5em;
+	}
 }
 
-@media only screen and (max-width: 767px) and (min-width: 480px){
+@media only screen and (max-width: 767px) and (min-width: 691px){
+	
+	#jumbotron{padding: 25% 0 15% 0;}
+	
+	.project-title {padding: 2.5em 0 1em 0;}
+   
+}
+
+@media only screen and (max-width: 690px) and (min-width: 480px){
+	
+	h1 {font-size: 2.75em;}
+	
+	#feature .span_6_of_12 {
+		position: relative;
+		width: 100%;
+	}
+	
+	#feature-img-01, #feature-img-02, #feature-img-03, #feature-img-04, #feature-img-05, #feature-img-06, #feature-img-07, #feature-img-08 {height: 70vw;}
+	
+	.col {margin: 1% 0 1% 2%;}
+	
+	.col:nth-child(2) {margin-left:0;}
+	
+	.col:nth-child(3) {margin-left:0;}
+	
+	.project-title {padding: 2.5em 0 1em 0;}
+	
+	.span_1_of_12, .span_2_of_12, .span_4_of_12, .span_5_of_12, .span_6_of_12, .span_7_of_12, .span_8_of_12, .span_9_of_12, .span_10_of_12, .span_11_of_12, .span_12_of_12 {
+	width: 100%; 
+	}
+	
+	.span_3_of_12 {width: 49%}
+	
    
 }
