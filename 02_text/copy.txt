@@ -1,3 +1,5 @@
+=== Page Description ===
+My name is Christopher Ian Murphy, is a designer offering professional creative services. This is the home of my online creative portfolio.
 === Jumbotron ===
 My name is Christopher Murphy. I live to design and make things.
 

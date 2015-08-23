@@ -1,3 +1,6 @@
+=== Page Description ===
+The Zuni Arist Resource Center is collection of facilities that offers resources for local artists and serves as a cultural destination points for visitors to Zuni Pueblo, New Mexico.
+=== Project Description ===
 Zuni Pueblo is nestled deep in the high desert of New Mexico and Arizona and is home to the Zuni people. The Zuni have existed in the southwest region for centuries, where they have practiced traditions and held cultural values -- many of which last to this day. 
 Art, which takes many forms such as weaving, painting, and fetish carving among others, is an essential expression of Zuni culture. Artistic traditions are passed on through generations, forming a lineage that is rich in cultural significance. In addition, art is also a key economic force for the Zuni community. 
 The sale of handcrafted artwork is a primary source of income for many in the Zuni community. In order to better support the Zuni tradition of artistic expression and to engage regional and national markets, there is a need for an accessible community space that facilitates the sale of artwork and provides resources for Zuni artists.

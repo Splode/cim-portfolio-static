@@ -1,0 +1,6 @@
+=== Page Description ===
+The Rio Grande Sol Bridge is a structural bridge project spanning the shores of the Rio Grande river in Albuquerque, New Mexico.
+=== Project Description ===
+The Rio Grande Sol Bridge is a bridge design that spans the shores of the Rio Grande river in Albuquerque, New Mexico. The bridge is expected to be an important part of the cultural and architectural landscape of the city. In addition to accommodating vehicular traffic, the bridge is to provide a separate avenue for pedestrian-only traffic.
+The bridge holds four lanes of bidirectional vehicular traffic. Elevated high above the cars is a broad pedestrian-only avenue that affords pedestrians a clear, elevated view of the Sandia Mountains.
+This project provided the opportunity to explore the foundational principles of structural design on a large scale.
