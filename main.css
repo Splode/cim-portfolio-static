@@ -68,8 +68,6 @@ nav li {
 
 nav li a {transition: opacity .25s;}
 
-nav li a:hover {opacity: 0.33;}
-
 /* Typography
 ---------------------------------------------- */
 
@@ -78,14 +76,14 @@ h2,
 h3 {font-family: 'Montserrat', sans-serif;}
 
 h1 {
-	font-size: 3.75em;
+	font-size: 3em;
 	letter-spacing: -0.03em;
 }
 
 h1 span {color: rgb(87,87,87);}
 
 h2 {
-	font-size: 2.75em;
+	font-size: 2.5em;
 	padding: 2em 0 .75em 0;
 }
 
@@ -150,7 +148,7 @@ a {
 /* Layout
 ---------------------------------------------- */
 
-#jumbotron {padding: 25% 0 18% 0;}
+#jumbotron {padding: 20% 0 15% 0;}
 
 .box {
 	background-color: rgba(0,0,0,0);
@@ -173,8 +171,6 @@ a {
 	width: 100%;
 	position: absolute;
 }
-
-.box:hover {background-color: rgba(0,0,0,.33);}
 
 .border-bottom {border-bottom: 8px solid #000;}
 
@@ -288,11 +284,6 @@ img {
 	transition: background .25s ease-in-out;
 }
 
-.logo:hover {
-	background: url(00_assets/CIM_logo_circ.png) no-repeat;
-	background-size: 100%;
-}
-
 /* Grid
 ---------------------------------------------- */
 
@@ -401,10 +392,6 @@ footer img {
 	width: 1.5em;
 }
 
-footer a:hover {
-	opacity: .5;
-}
-
 footer p {
 	font-size: .75em;
 	padding: 0;
@@ -498,6 +485,24 @@ footer p {
    
 }
 
-/* --------------- Desktop ------------------------------- */
+/* ------- Desktop Only ------------------------------- */
 @media only screen and (min-width: 960px) and (min-resolution: 72dpi) {
+	
+	h1 {font-size: 3.75em;}
+	h2 {font-size: 2.75em;}
+	
+	footer a:hover {
+		opacity: .5;
+	}
+	
+	nav li a:hover {opacity: 0.33;}
+	
+	#jumbotron {padding: 25% 0 18% 0;}
+
+	.box:hover {background-color: rgba(0,0,0,.33);}
+	
+	.logo:hover {
+		background: url(00_assets/CIM_logo_circ.png) no-repeat;
+		background-size: 100%;
+	}
 }
