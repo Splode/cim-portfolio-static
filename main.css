@@ -153,34 +153,28 @@ a {
 #jumbotron {padding: 25% 0 18% 0;}
 
 .box {
+	background-color: rgba(0,0,0,0);
 	height: 100%;
-	overflow: hidden;
-	width: 100%;
-}
-
-.box-title {
-	background-color: gray;
-	height: 100%;
-	left: 0;	
-	opacity: 0;
-	position: absolute;
-	top: 0;
+	position: relative;
 	transition: all .25s ease-in-out;
 	width: 100%;
 }
 
-.box-title h2 {
+.box h2 {
 	color: #fff;
 	font-size: 2vw;
-	text-align: center;
 	text-transform: uppercase;
-	padding: 25% 10% 0 10%;
+	padding: 1em 10% 1.25em 10%;
 }
 
-.box-title:hover {
-	background-color: rgba(0,0,0,.5);
-	opacity: 1;
+.box-title {
+	background-color: rgba(0,0,0,.33);
+	bottom: 0;
+	width: 100%;
+	position: absolute;
 }
+
+.box:hover {background-color: rgba(0,0,0,.33);}
 
 .border-bottom {border-bottom: 8px solid #000;}
 
@@ -452,9 +446,7 @@ footer p {
 	
 	#jumbotron{padding: 35% 0 15% 0;}
 	
-	.box-title:hover h2{
-		display: none;
-	}
+	.box h2 {font-size: 1em;}
 	
 	.project-title {
 		font-size: 2em;
@@ -465,6 +457,7 @@ footer p {
 		font-size: 1.25em;
 		line-height: 1.5em;
 	}
+	
 }
 
 @media only screen and (max-width: 767px) and (min-width: 691px){
@@ -486,6 +479,8 @@ footer p {
 	
 	#feature-img-01, #feature-img-02, #feature-img-03, #feature-img-04, #feature-img-05, #feature-img-06, #feature-img-07, #feature-img-08 {height: 70vw;}
 	
+	.box h2 {font-size: 1em;}
+	
 	.col {margin: 1% 0 1% 2%;}
 	
 	.col:nth-child(2) {margin-left:0;}
@@ -501,4 +496,8 @@ footer p {
 	.span_3_of_12 {width: 49%}
 	
    
+}
+
+/* --------------- Desktop ------------------------------- */
+@media only screen and (min-width: 960px) and (min-resolution: 72dpi) {
 }
