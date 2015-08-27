@@ -68,8 +68,6 @@ nav li {
 
 nav li a {transition: opacity .25s;}
 
-nav li a:hover {opacity: 0.33;}
-
 /* Typography
 ---------------------------------------------- */
 
@@ -78,14 +76,14 @@ h2,
 h3 {font-family: 'Montserrat', sans-serif;}
 
 h1 {
-	font-size: 3.75em;
+	font-size: 3em;
 	letter-spacing: -0.03em;
 }
 
 h1 span {color: rgb(87,87,87);}
 
 h2 {
-	font-size: 2.75em;
+	font-size: 2.5em;
 	padding: 2em 0 .75em 0;
 }
 
@@ -150,36 +148,28 @@ a {
 /* Layout
 ---------------------------------------------- */
 
-#jumbotron {padding: 25% 0 18% 0;}
+#jumbotron {padding: 20% 0 15% 0;}
 
 .box {
+	background-color: rgba(0,0,0,0);
 	height: 100%;
-	overflow: hidden;
-	width: 100%;
-}
-
-.box-title {
-	background-color: gray;
-	height: 100%;
-	left: 0;	
-	opacity: 0;
-	position: absolute;
-	top: 0;
+	position: relative;
 	transition: all .25s ease-in-out;
 	width: 100%;
 }
 
-.box-title h2 {
+.box h2 {
 	color: #fff;
 	font-size: 2vw;
-	text-align: center;
 	text-transform: uppercase;
-	padding: 25% 10% 0 10%;
+	padding: 1em 10% 1.25em 10%;
 }
 
-.box-title:hover {
-	background-color: rgba(0,0,0,.5);
-	opacity: 1;
+.box-title {
+	background-color: rgba(0,0,0,.33);
+	bottom: 0;
+	width: 100%;
+	position: absolute;
 }
 
 .border-bottom {border-bottom: 8px solid #000;}
@@ -286,17 +276,13 @@ img {
 
 .logo {
 	display: inline-block;
+	float: left;
 	margin-top: 8px;
 	width: 60px;
 	height: 60px;
 	background: url(00_assets/CIM_logo_01.png) no-repeat;
 	background-size: 100%;
 	transition: background .25s ease-in-out;
-}
-
-.logo:hover {
-	background: url(00_assets/CIM_logo_circ.png) no-repeat;
-	background-size: 100%;
 }
 
 /* Grid
@@ -407,10 +393,6 @@ footer img {
 	width: 1.5em;
 }
 
-footer a:hover {
-	opacity: .5;
-}
-
 footer p {
 	font-size: .75em;
 	padding: 0;
@@ -433,8 +415,8 @@ footer p {
 	}
 	
 	nav li {
-		font-size: .75em;
-		margin-left: .45em;
+		font-size: .66em;
+		margin-left: .33em;
 	}
 	
 	nav li:first-child {
@@ -452,9 +434,7 @@ footer p {
 	
 	#jumbotron{padding: 35% 0 15% 0;}
 	
-	.box-title:hover h2{
-		display: none;
-	}
+	.box h2 {font-size: 1em;}
 	
 	.project-title {
 		font-size: 2em;
@@ -465,6 +445,7 @@ footer p {
 		font-size: 1.25em;
 		line-height: 1.5em;
 	}
+	
 }
 
 @media only screen and (max-width: 767px) and (min-width: 691px){
@@ -486,6 +467,8 @@ footer p {
 	
 	#feature-img-01, #feature-img-02, #feature-img-03, #feature-img-04, #feature-img-05, #feature-img-06, #feature-img-07, #feature-img-08 {height: 70vw;}
 	
+	.box h2 {font-size: 1em;}
+	
 	.col {margin: 1% 0 1% 2%;}
 	
 	.col:nth-child(2) {margin-left:0;}
@@ -501,4 +484,26 @@ footer p {
 	.span_3_of_12 {width: 49%}
 	
    
+}
+
+/* ------- Desktop Only ------------------------------- */
+@media only screen and (min-width: 960px) and (min-resolution: 72dpi) {
+	
+	h1 {font-size: 3.75em;}
+	h2 {font-size: 2.75em;}
+	
+	footer a:hover {
+		opacity: .5;
+	}
+	
+	nav li a:hover {opacity: 0.33;}
+	
+	#jumbotron {padding: 25% 0 18% 0;}
+
+	.box:hover {background-color: rgba(0,0,0,.33);}
+	
+	.logo:hover {
+		background: url(00_assets/CIM_logo_circ.png) no-repeat;
+		background-size: 100%;
+	}
 }
