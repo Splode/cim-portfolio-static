@@ -276,6 +276,7 @@ img {
 
 .logo {
 	display: inline-block;
+	float: left;
 	margin-top: 8px;
 	width: 60px;
 	height: 60px;
