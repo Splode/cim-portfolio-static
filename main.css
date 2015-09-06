@@ -159,10 +159,13 @@ a {
 }
 
 .box h2 {
+	background: url(00_assets/00_icons/CIM_arrow_01.svg) no-repeat right top;
+	background-size: contain;
 	color: #fff;
+	display: inline-block;
 	font-size: 2vw;
 	text-transform: uppercase;
-	padding: 1em 10% 1.25em 10%;
+	padding: 0 3vw 0 0;
 }
 
 .box-title {
@@ -170,6 +173,18 @@ a {
 	bottom: 0;
 	width: 100%;
 	position: absolute;
+}
+
+.box-title-container {
+	padding: 5% 10% 5% 10%;
+}
+
+.box-title img {
+	display: inline-block;
+	height: 2em;
+	margin-bottom: -5px;
+	padding: 0;
+	width: auto;
 }
 
 .border-bottom {border-bottom: 8px solid #000;}
@@ -434,7 +449,10 @@ footer p {
 	
 	#jumbotron{padding: 35% 0 15% 0;}
 	
-	.box h2 {font-size: 1em;}
+	.box h2 {
+		font-size: 1em;
+		padding: 0 6vw 0 0;
+		}
 	
 	.project-title {
 		font-size: 2em;
