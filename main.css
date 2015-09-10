@@ -189,8 +189,12 @@ a {
 
 .border-bottom {
 	border-bottom: 8px solid;
-	border-bottom-color: rgba(0,0,0,.88);
+	border-color: rgba(0,0,0,.88);
 	}
+	
+.border-bottom-white {
+	border-bottom: 8px solid #fff;
+}
 
 .border-top {
 	border-top-color: rgba(0,0,0,.88);
@@ -204,10 +208,17 @@ a {
 	padding: 0 2%;
 }
 
-.greyBack {
-	background: rgba(0,0,0,.88);
-	color: #fff;
-	margin-top: 75px;
+.content-panel-grey {
+	background: rgba(0,0,0,.05);
+	/* color: #fff; */
+	margin: 75px 0;
+	min-width: 100%;
+	padding: 4em 0;
+	text-align: center;
+}
+
+.content-panel-white {
+	margin: 75px 0;
 	min-width: 100%;
 	padding: 4em 0;
 	text-align: center;
