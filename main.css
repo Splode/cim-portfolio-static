@@ -32,7 +32,7 @@ body {
 	text-rendering: optimizeLegibility;
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
-	color: black;
+	color: rgba(0,0,0,.88);
 	margin: 0 auto;
 }
 
@@ -187,10 +187,14 @@ a {
 	width: auto;
 }
 
-.border-bottom {border-bottom: 8px solid #000;}
+.border-bottom {
+	border-bottom: 8px solid;
+	border-bottom-color: rgba(0,0,0,.88);
+	}
 
 .border-top {
-	border-top: 8px solid #000; 
+	border-top-color: rgba(0,0,0,.88);
+	border-top: 8px solid; 
 	padding-top: 2em;
 }
 
