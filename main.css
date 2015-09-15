@@ -411,7 +411,6 @@ footer {
 	clear: both;
 	margin: 0 auto;
 	min-width: 100%;
-	/* padding: 4em 0; */
 	text-align: center;
 }
 
@@ -434,7 +433,7 @@ footer p {
 	opacity: 1;
 	padding: 0 .5em 1.25em .5em;
 	transition: opacity .25s;
-	width: 1.5em;
+	width: 2em;
 }
 
 /* Media queries
