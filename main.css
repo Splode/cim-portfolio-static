@@ -32,7 +32,7 @@ body {
 	text-rendering: optimizeLegibility;
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
-	color: rgba(0,0,0,.88);
+	color: rgb(33,33,33);
 	margin: 0 auto;
 }
 
@@ -109,7 +109,7 @@ p {
 	text-align: center;
 }
 
-#name {color: rgb(87,87,87);}
+#name {color: rgb(97,97,97);}
 
 .caption {
 	font-style: italic;
@@ -175,9 +175,7 @@ a {
 	position: absolute;
 }
 
-.box-title-container {
-	padding: 5% 10% 5% 10%;
-}
+.box-title-container {padding: 5% 10% 5% 10%;}
 
 .box-title img {
 	display: inline-block;
@@ -210,7 +208,6 @@ a {
 
 .content-panel-grey {
 	background: rgba(0,0,0,.05);
-	/* color: #fff; */
 	margin: 75px 0;
 	min-width: 100%;
 	padding: 4em 0;
@@ -394,13 +391,9 @@ img {
 	display:table; 
 }
 
-.group:after { 
-	clear:both;
-}
+.group:after {clear:both;}
 
-.group { 
-	zoom:1; /* For IE 6/7 */ 
-}
+.group {zoom:1; /* For IE 6/7 */ }
 
 /* Footer
 ---------------------------------------------- */
