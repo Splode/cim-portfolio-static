@@ -80,8 +80,6 @@ h1 {
 	letter-spacing: -0.03em;
 }
 
-h1 span {color: rgb(87,87,87);}
-
 h2 {
 	font-size: 2.5em;
 	padding: 2em 0 .75em 0;
@@ -110,6 +108,8 @@ p {
 	padding-bottom: 35px;
 	text-align: center;
 }
+
+#name {color: rgb(87,87,87);}
 
 .caption {
 	font-style: italic;
