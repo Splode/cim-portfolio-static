@@ -414,6 +414,8 @@ footer {
 	text-align: center;
 }
 
+footer a {text-decoration: underline;}
+
 footer div {padding: 4em 0;}
 
 footer p {
