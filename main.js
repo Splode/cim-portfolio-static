@@ -26,7 +26,10 @@ var wordList = [
     "strong coffee",
     "the golden hour",
     "star-gazing",
-    "clearly structured and commented code"
+    "clearly structured and commented code",
+    "elegant architecture",
+    "white space",
+    "grids"
     ];
 
 // random integer generation
