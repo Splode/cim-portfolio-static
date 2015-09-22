@@ -57,5 +57,14 @@ function words() {
 
 // Main scripting
 $(document).ready(function() {
+   //wordList ticker
    words();
+  
+  //smooth scroll
+   $('a').click(function(){
+	$('html, body').animate({
+		scrollTop: $( $(this).attr('href') ).offset().top
+    }, 1000);
+    return false;
+	});
 });
