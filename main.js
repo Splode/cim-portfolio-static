@@ -29,7 +29,8 @@ var wordList = [
     "clearly structured and commented code",
     "elegant architecture",
     "white space",
-    "grids"
+    "grids",
+    "connecting with people in meaningful ways"
     ];
 
 // random integer generation
