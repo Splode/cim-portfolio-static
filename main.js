@@ -30,7 +30,9 @@ var wordList = [
     "elegant architecture",
     "white space",
     "grids",
-    "connecting with people in meaningful ways"
+    "connecting with people in meaningful ways",
+    "when a plan comes together",
+    "harmonious balance"
     ];
 
 // random integer generation
